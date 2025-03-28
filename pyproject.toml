@@ -1,0 +1,20 @@
+[project]
+name = "hello-op-ag"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "TasmeerJamali", email = "163600279+TasmeerJamali@users.noreply.github.com" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "chainlit>=2.4.302",
+    "openai-agents>=0.0.7",
+]
+
+[project.scripts]
+hello-op-ag = "hello_op_ag:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
